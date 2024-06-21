@@ -6,6 +6,7 @@ This repository contains the models and code for [UTDRM](https://epjdatascience.
 
 1. **Generate Claims:**
    - Utilize the T5 and ChatGPT claim generators located in the `generators/` directory to generate claims.
+   - T5 and ChatGPT generated claims can be downloaded from [Zenodo](https://zenodo.org/records/12167870).
 
 2. **Convert Dataset and Mine Hard Negatives:**
    - Convert the dataset into BIER format and mine hard negatives using the scripts available at [GPL](https://github.com/UKPLab/gpl). This process will generate the `hard-negatives.jsonl` file.
